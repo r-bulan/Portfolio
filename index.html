@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Portfolio — [Your Name] | BSIT</title>
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+	<!-- accessibility shortcut -->
+	<a class="skip-link" href="#main">Skip to content</a>
+
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="#home">[Your Name]</a>
+
+			<!-- Small controls: mobile menu and theme toggle -->
+			<div class="header-controls">
+				<button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+				<button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+			</div>
+
+			<nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Main navigation">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#documents">Professional Documents</a></li>
+					<li><a href="#certificates">Certificates & Awards</a></li>
+					<li><a href="#academic">Academic Work</a></li>
+					<li><a href="#technical">Technical Systems</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main">
+		<section id="home" class="hero container reveal">
+			<!-- Short professional introduction + elevator pitch -->
+			<h1>[Your Name]</h1>
+			<p class="sub">BS in Information Technology — Aspiring Junior Programmer / Systems Developer</p>
+			<p class="mission">
+				Professional mission: To apply practical IT solutions and collaborative skills to deliver reliable, maintainable software while continuing to learn modern development practices. (60-second elevator pitch-ready summary.)
+			</p>
+		</section>
+
+		<section id="documents" class="section container reveal">
+			<h2>Professional Documents</h2>
+
+			<article class="resume">
+				<h3>Web Résumé (Web-friendly)</h3>
+				<!-- Brief, editable résumé content. Replace placeholders with real info. -->
+				<div class="resume-grid">
+					<div class="resume-left">
+						<h4>Profile</h4>
+						<p>Motivated BSIT student with experience in web development, database systems, and team-based academic projects.</p>
+
+						<h4>Contact</h4>
+						<p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+						<p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></p>
+
+						<h4>Skills</h4>
+						<ul>
+							<li>HTML, CSS, JavaScript</li>
+							<li>Python / SQL</li>
+							<li>Git, GitHub</li>
+						</ul>
+					</div>
+
+					<div class="resume-right">
+						<h4>Experience & Education</h4>
+						<p><strong>Project / Role</strong> — Short description of responsibilities and impact. (Replace with your entries.)</p>
+
+						<h4>Education</h4>
+						<p>BS in Information Technology — [University Name] — Expected [Year]</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="cover-letter">
+				<h3>Sample Cover Letter</h3>
+				<p><strong>To:</strong> Hiring Manager, [Company]</p>
+				<p><strong>Position:</strong> Junior Programmer</p>
+				<p>
+					Dear Hiring Manager,
+				</p>
+				<p>
+					I am a BSIT student with practical experience in web and systems development. I contributed to academic projects involving [short list of tools/frameworks], and I am confident I can contribute to your team by delivering maintainable code and collaborating effectively in agile workflows.
+				</p>
+				<p>
+					Sincerely,<br />
+					[Your Name]
+				</p>
+			</article>
+
+			<article class="signature">
+				<h3>Professional Email Signature</h3>
+				<pre class="email-signature">
+[Your Name] | BSIT
+Aspiring Junior Programmer
+Email: you@example.com | LinkedIn: linkedin.com/in/yourprofile
+Phone: (optional) | Portfolio: your-portfolio-url
+				</pre>
+			</article>
+		</section>
+
+		<section id="certificates" class="section section-emphasized container reveal">
+			<h2>Certificates & Awards</h2>
+			<p class="section-note">Visual emphasis: This section is prioritized for presentation.</p>
+
+			<div class="gallery-grid">
+				<!-- Replace src with real images at assets/images/ -->
+				<figure class="gallery-item">
+					<img src="assets/images/certificate1.jpg" alt="Certificate 1 (placeholder)" />
+					<figcaption>
+						<strong>Certificate Title</strong>
+						<p>Issuing organization • Date • Short description of what this recognizes.</p>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item">
+					<img src="assets/images/certificate2.jpg" alt="Certificate 2 (placeholder)" />
+					<figcaption>
+						<strong>Award / Recognition</strong>
+						<p>Context, role, and brief impact summary.</p>
+					</figcaption>
+				</figure>
+
+				<!-- ...more gallery items... -->
+			</div>
+		</section>
+
+		<section id="academic" class="section section-emphasized container reveal">
+			<h2>Academic Work & Achievements</h2>
+			<p class="section-note">Highlighted projects with stated role and contribution. Use screenshots or 10–30s demo videos.</p>
+
+			<div class="project-grid">
+				<article class="project-card">
+					<h3>Project Title — Group Project</h3>
+					<p class="role"><strong>Role:</strong> Developer / UI Lead</p>
+					<p class="contrib"><strong>Contribution:</strong> Designed front-end UI, implemented client-side validation, and integrated API endpoints for data retrieval.</p>
+
+					<!-- Screenshot placeholder -->
+					<img src="assets/images/project1-screenshot.jpg" alt="Project 1 screenshot (placeholder)" />
+
+					<!-- Short demo video (10-30s) - replace with actual file -->
+					<video controls width="100%" preload="metadata" poster="assets/images/project1-screenshot.jpg">
+						<source src="assets/videos/project1-demo.mp4" type="video/mp4" />
+						Your browser does not support embedded videos. Provide a link to the video.
+					</video>
+				</article>
+
+				<!-- Add additional project cards as needed -->
+			</div>
+		</section>
+
+		<section id="technical" class="section container reveal">
+			<h2>Technical Systems & Development</h2>
+			<p>Describe systems you built or contributed to, tools used, and your role. Include screenshots, short demo (30–60s), and small code snippets.</p>
+
+			<div class="tech-grid">
+				<div class="tech-card">
+					<h3>System / App Name</h3>
+					<p><strong>Purpose:</strong> Short statement of system purpose.</p>
+					<p><strong>Tools:</strong> HTML, CSS, JavaScript, Python, Flask, MySQL (example)</p>
+					<p><strong>Role:</strong> Full-stack developer — implemented authentication and CRUD for resources.</p>
+
+					<!-- Screenshot -->
+					<img src="assets/images/system1-screenshot.jpg" alt="System screenshot (placeholder)" />
+
+					<!-- Short demo (30–60s) -->
+					<video controls width="100%" preload="metadata" poster="assets/images/system1-screenshot.jpg">
+						<source src="assets/videos/system1-demo.mp4" type="video/mp4" />
+					</video>
+
+					<!-- Code snippet -->
+					<pre class="code-snippet"><code>// Example: simplified route (replace with your code)
+@app.route('/items', methods=['GET'])
+def get_items():
+    # return JSON list of items from DB
+    pass
+</code></pre>
+
+					<p><a href="https://github.com/yourusername/your-repo" target="_blank" rel="noopener noreferrer">View code on GitHub</a></p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section container reveal">
+			<h2>Contact</h2>
+			<p>Questions or requests for project details: <a href="mailto:you@example.com">you@example.com</a></p>
+			<p class="notes">Notes for defense: Have 2–3 talking points per highlighted project. Focus on problem solved, your role, and measurable outcome if any.</p>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>&copy; <span id="year"></span> [Your Name] — Portfolio for Business Communication course. Designed for presentation and defense. Replace placeholders with personal content before submission.</p>
+		</div>
+	</footer>
+
+	<script src="js/scripts.js" defer></script>
+</body>
+</html>
